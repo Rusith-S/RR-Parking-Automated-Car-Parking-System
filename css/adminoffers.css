@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.page-header{
+    background-color: rgb(4, 4, 66);
+    margin-top: 0px;
+    height: 35px;
+    width: 100%;
+}
+
+.page-header > h3{
+    color: white;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.page-container{
+    display: flex;
+    margin-left: 0px;
+}
+
+.page-sidebar{
+    background-color: rgb(4, 4, 66);
+    height: 100%;
+    width: 190px;
+}
+
+.offer-card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-right: 85px;
+    margin-left: 80px;
+    border-radius: 8px;
+    min-height: 500px;
+    justify-content: space-between;
+    padding: 0;
+    /*width: 75%;*/
+}
+
+.form-container{
+    background-color: beige;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fl-1{
+    margin-bottom: 16px;
+}
+.form-bar{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.f-label{
+    margin-right: 10px;
+}
+
+.f-box{
+    height: 24px;
+    width: auto;
+}
+
+.no-offer {
+    padding: 10px;
+}
+
+.fl-btn{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn1{
+    background-color: rgb(14, 112, 162);
+    border-radius: 8px;
+    height: 32px;
+    color: white;;
+    text-transform: capitalize;
+    border-width: 1px;
+    cursor: pointer;
+
+}
+
+.form-2-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.form-2-container > h4{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+.table-container{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.th-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.td-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+
+.td > input {
+    padding: 5px 5px;
+}
+
+.table-button{
+    background-color: rgba(239, 229, 229, 0.805);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+

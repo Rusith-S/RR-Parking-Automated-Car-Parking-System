@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  /* background-color: #f1f7ff; */
+  flex-direction: column;
+  font-family: 'Inter', 'Calibri', sans-serif;
+  overflow-x: hidden;
+  
+  background-size: cover;
+  background-color: rgb(167, 180,192);
+}
+
+
+
+
+
+
+  .wwrapper{
+    max-width: 500px;
+    border-radius: 10px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 25px;
+  }
+
+
+
+  
+  .wwrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .wwrapper .form{
+    width: 100%;
+  }
+  
+  .wwrapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .wwrapper .form .inputfield label{
+    width: 200px;
+    color: #000000;
+    margin-right: 10px;
+    font-size: 14px;
+ }
+
+ 
+.wwrapper .form .inputfield .input,
+.wwrapper .form .inputfield .textareaa{
+  width: 100%;
+  outline: none;
+  border: 1px solid #000000;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+  
+  .wwrapper .form .inputfield.textareaa{
+    width: 100%;
+    height: 125px;
+    resize: none;
+  }
+  
+  .wwrapper .form .inputfield .customer_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+  }
+  
+  .wwrapper .form .inputfield .customer_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #000000 transparent transparent transparent;
+    pointer-events: none;
+  }
+  
+  .wwrapper .form .inputfield .customer_select select{
+    -webkit-appearance: none;
+    -moz-appearance:   none;
+    appearance:        none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: 8px 10px;
+    font-size: 15px;
+ 
+  }
+    
+  .wwrapper .form .inputfield .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background: rgb(255, 143, 38);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .wwrapper .form .inputfield .btn:hover{
+    background: rgb(187, 106, 31)
+  }
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copy {
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.copy > p {
+    margin-block-end: 0px
+}
+
+

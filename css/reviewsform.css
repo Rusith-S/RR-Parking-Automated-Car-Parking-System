@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', 'Calibri', sans-serif;
+    overflow-x: hidden;
+    background: url(../images/carousel/3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+.container
+{
+    height: 550px;
+    width:700px;
+    max-width: 500px;
+    border-radius: 10px;
+    width: 100%;
+    background:rgb(167, 180, 192);
+    margin: 20px auto;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+}
+
+.container h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.container .form
+{
+    width: 100%;
+}
+
+.input-field input
+{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:5px;
+    border-color: rgb(16, 12, 245);
+}
+
+.input-field
+{
+    border: 1px solid rgb(224, 219, 219);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#textarea
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(16, 12, 245);
+    border-radius:5px;
+}
+
+.postbtn
+{
+    transform: translateX(10px);
+    float:right;
+    background-color: rgb(13, 14, 13);
+    width :100px;
+    height: 45px;
+    margin-left: 60px;
+    font-family:sans-serif;
+    color:white;
+    font-weight: 1000;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(23, 7, 247);
+}
+
+.postbtn:hover
+{
+    background-color: rgb(43, 21, 143);
+}
+

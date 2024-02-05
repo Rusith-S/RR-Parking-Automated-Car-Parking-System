@@ -1,0 +1,63 @@
+body {
+    margin:0;
+    padding:0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(con.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+.contact-us {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-us h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+ 
+.contact-us h2{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-con{
+    width:600px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color:black;
+     font-size: 18px;
+     margin-bottom: 16px;
+
+}
+
+input {
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height:50px;
+    margin-top: 20px;;
+}
+
+form .submit:hover {
+background-color: #f44330;
+cursor: pointer;
+}

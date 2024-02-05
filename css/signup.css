@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: #f1f7ff; */
+    font-family: 'Inter', 'Calibri', sans-serif;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #f1f7ff;
+
+}
+
+.sign-container{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    justify-content: center;
+    /*display: flex;
+    flex-direction: row;*/
+}
+
+.signup-container{
+    height: auto;
+    width: auto;
+    margin: auto auto;
+    border: 3px;
+}
+
+.signup-card{
+    border-radius: 8px;
+    box-shadow: 0px 1px 20px 3px rgb(0 0 0 / 10%);
+    border:2px !important;
+    background-color: white;
+}
+
+.signup-form-container{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    border-right: 1px solid rgba(0,0,0,.125);
+    padding: 32px;
+}
+
+.signup-form-container > h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.copy {
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+
+.copy > p {
+    margin-block-end: 0px
+}
+
+.form-input-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-end{
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sform-label{
+    font-size: small;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sform-control{
+    height: 30px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.s-1{
+    margin-bottom: 16px;
+}
+
+.form-app-box{
+    margin-top: 25px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.sform-app-label{
+    margin-top: 5px;
+    margin-right: 0px;
+    font-size: small;
+}
+
+.sform-app-btn{
+    margin-top: 6px;
+    margin-right: 2px;
+}
+
+.p-1{
+    margin-top: 15px;
+    font-size: small;
+}
+
+.btn-1{
+    margin-top: 10px;
+    background-color: rgb(41, 108, 191);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+}
+
+
+
+
+

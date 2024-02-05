@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 180, 192);
+}
+
+.container
+{
+    width: 665px;
+    height: 540px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:20px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0); 
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content:space-around;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Inter', 'Calibri', sans-serif;
+}
+
+.images img
+{
+    margin-right: 45px;
+}
+
+.container h1
+{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: 'Inter', 'Calibri', sans-serif;
+
+
+}
+
+h1
+{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.images
+{
+    float:right;
+}
+
+.images h3
+{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.cardholder
+{
+    width: 50%;
+    margin-left: 5px;
+}
+
+.card-number
+{
+    width: 50%;
+    margin-left: 5px;
+    float: left;
+}
+.amount
+{
+    width: 35%;
+    margin-right: 10px;
+    float: right;
+}
+
+
+.expiry
+{
+    width: 40%;
+    margin-left: 5px;
+    float:left;
+}
+
+.cvv
+{
+    width: 30%;
+    margin: 5px 40px 10px 2px;
+    float: right;
+}
+
+.input-field
+{
+    border: 1px solid rgb(224, 219, 219);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.input-field input
+{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:5px;
+    border-color: rgb(245, 12, 12);
+}
+
+.selection
+{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.selection select
+{
+    padding: 10px 20px;
+}
+
+
+.confirm
+{
+    width :100px;
+    height:40px;
+    margin-right: 100px;
+}
+#paybutton{
+    transform: translateX(160px);
+    float:right;
+    background-color: rgb(255, 143, 38);
+    width :200px;
+    height: 45px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-family:sans-serif;
+    color:rgb(0, 0, 0);
+    font-weight: 1000;
+    margin-top: 70px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 143, 38);  
+}
+
+#paybutton:hover
+{
+    background-color:rgb(187, 106, 31);
+    width :200px;
+}

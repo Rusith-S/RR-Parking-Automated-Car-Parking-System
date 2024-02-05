@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: #f1f7ff; */
+    font-family: 'Inter', 'Calibri', sans-serif;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(167, 180, 192);
+}
+
+
+.h11{
+    margin-bottom: 0px;
+    font-size:30px;
+    font-weight:900;
+    background: url(../images/about-us/usback.jpg);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.about{
+    padding:78px 0px;
+    background-color: rgb(167, 180, 192);
+}
+
+.about img{
+    height:330px;
+    width:330px;
+    transition: width 2s, height 4s;
+    border:2px;
+    border-radius: 10px;
+}
+
+.about img:hover {
+    width: 360px;
+    height: 360px;
+  }
+
+.about-text1{
+    width:500px;
+    height:300px;
+}
+
+
+
+.main1{
+    width:1130px;
+    max-width:95%;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    background-color:rgb(255, 255, 255);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size:25px;
+    font-weight:900;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+
+  .button {
+    background-color: rgb(0, 109, 205);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  
+  }
+
+
+
+
+/* question box */;
+
+.container{
+	position: relative;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+}
+
+
+
+
+
+h2{
+    margin-top:50px;
+    margin-left:290px;
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+
+
+}
+
+
+
+.field{
+    margin-left:290px;
+	width: 650px;
+
+	border: 5px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color:rgba(255, 255, 255, 0.655);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+    border-radius:7px;
+
+   
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 100px;
+
+}
+
+.btn{
+	width: 500px;
+    margin-left:360px;
+	padding: 0.5rem 1rem;
+	background-color: #0400fe;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: #03009b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+.copy {
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+
+.copy > p {
+    margin-block-end: 0px
+}
+
+

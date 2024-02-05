@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: #f1f7ff; */
+    flex-direction: column;
+    font-family: 'Inter', 'Calibri', sans-serif;
+    overflow-x: hidden;
+    background-color: #ffffff;
+  }
+  
+  
+  .head1{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size:25px;
+    font-weight:900;
+}
+  
+  summary{
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  
+  
+  p.content{
+    color:black;
+    padding:15px;
+    text-align: center;
+    
+   }
+  
+  details{
+    background-color: rgb(0, 195, 255);
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  
+  details:hover{
+    background-color: #b9b9d4;
+  }
+
+  
+  .outbox{
+    margin-top: 10%;
+   
+  }
+  
+  .linebox{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+  
+    flex-wrap: wrap;
+  }
+  
+  
+  .linebox .inbox{
+   
+    margin: 20px;
+    margin-bottom: 25px;
+    width: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+
+   
+  }
+  
+  
+  .linebox .inbox h3{
+    color: #ffffff;
+    font-size: 26px;
+
+  }
+  
+
+
+/* question box */;
+
+.container{
+	position: relative;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ 
+}
+
+
+
+
+
+h2{
+    margin-top:150px;
+    margin-left:250px;
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.field{
+    margin-left:200px;
+	width: 800px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+   border-radius: 7px;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 500px;
+    margin-left:360px;
+	padding: 0.5rem 1rem;
+	background-color: #0400fe;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: #03009b;
+}
+
+
+
+
+
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height:100%;
+	left: 0;
+	top: 0;
+    background: url(../images/about-us/park.png) no-repeat center;
+	background-size: cover;
+	filter: blur(40px);
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  /* footer*/
+  
+  
+  .copy {
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .copy > p {
+    margin-block-end: 0px
+  
+  

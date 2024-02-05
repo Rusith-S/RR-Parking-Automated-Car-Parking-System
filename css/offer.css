@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: #f1f7ff; */
+    font-family: 'Inter', 'Calibri', sans-serif;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background:  rgb(167, 180, 192);
+    font-family: 'Inter', 'Calibri', sans-serif;
+  }
+  
+.head {
+    font-family:'sans-serif';
+}
+  
+  .offerr{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+  }
+  
+  .offerr .offer_member{
+    background: black;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+
+    border-radius: 25px;
+    border: 1px solid #000;
+    padding: 20px; 
+    
+  }
+  
+  .offerr .offer_member h3{
+    color: orange;
+    font-size: 26px;
+    /* margin-top: 20px; */
+    line-height: 36px;
+    margin-top: 16px;
+  }
+  
+  .offerr .offer_member p.role{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .no-offer {
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+  }
+
+  .buttonn {
+    background-color:rgb(255, 255, 255);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size:25px;
+    font-weight:900;
+    transition: 0.3s;
+    margin-top: 24px;
+  }
+  
+  .buttonn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .buttonn {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+
+  .offer_member p {
+      line-height : 175%;
+
+  }
+  
+
+  
