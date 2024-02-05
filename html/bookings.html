@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for character set, viewport, and compatibility -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Preconnect and link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Link to the header stylesheet with a unique identifier -->
+    <link rel="stylesheet" href="../css/header.css?v=20240205">
+
+    <!-- Link to the custom JavaScript file -->
+    <script type="text/javascript" src="../js/functio.js"></script>
+</head>
+
+<!-- Body starts here -->
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Logo and navigation links -->
+        <img src="../images/header-footer/Logo.jpg" class="logo">
+        <nav>
+            <ul class="links ul-nav">
+                <!-- Navigation links -->
+                <li class="links"><a href="./index.php">Home</a></li>
+                <li class="links"><a href="./FAQs.php">FAQ's</a></li>
+                <li class="links"><a href="./About us.php">About us</a></li>
+                <li class="links"><a href="./privacypolicy.php">Privacy policy</a></li>
+                <li class="links"><a href="./reviews.php">Customer reviews</a></li>
+                <li class="links"><a href="./contactt.php">Contact us</a></li>
+                <li class="links"><a href="./offer.php">Offers</a></li>
+                <li class="links"><a href="./location.php">Locations</a></li>
+            </ul>
+        </nav>
+        <!-- Login button -->
+        <a href="./login.php" class="account">
+            <button class="btn-primary">Log in</button>
+        </a>
+        <!-- Empty div -->
+        <div></div>
+    </header>
+    <!-- End: header -->
+
+    <!-- Booking form section -->
+    <div class="wwrapper">
+        <div class="title">
+            Book your slot!
+        </div>
+        <div class="form">
+            <!-- Location selection -->
+            <div class="inputfield">
+                <label>Select Location</label>
+                <div class="customer_select">
+                    <select required>
+                        <option value="">Select</option>
+                        <option value="Kandy">Kandy</option>
+                        <option value="Kadawatha">Kadawatha</option>
+                        <option value="Galle">Galle</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Date input -->
+            <div class="inputfield">
+                <label>Date</label>
+                <input type="date" required>
+            </div>
+
+            <!-- Vehicle type selection -->
+            <div class="inputfield">
+                <label>Select vehicle type</label>
+                <div class="customer_select">
+                    <select required>
+                        <option value="">Car</option>
+                        <option value="Van">Van</option>
+                        <option value="Suv">Suv</option>
+                        <option value="Pickuptruck">Pickup truck</option>
+                        <option value="Minian">Minivan</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Vehicle drop-off time input -->
+            <div class="inputfield">
+                <label>Vehicle drop off time</label>
+                <input type="time" class="input" required>
+            </div>
+
+            <!-- Hours of parking input and confirmation button -->
+            <form name="formcalc">
+                <div class="inputfield">
+                    <label>Amount of hours vehicle will be parked</label>
+                    <input type="text" class="input" name="txtnum1" max="24" required>
+                </div>
+
+                <div class="inputfield">
+                    <input type="button" value="Confirm" class="btn" onClick="sumvalues()">
+                </div>
+
+                <!-- Discounts and total amount input fields -->
+                <div class="inputfield">
+                    <label>Discounts</label>
+                    <input type="text" class="input" name="txtnum2" readonly>
+                </div>
+
+                <div class="inputfield">
+                    <label>Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.</label>
+                    <input type="text" class="input" name="txtres" readonly>
+                </div>
+
+                <!-- Pay now button linking to payments.php -->
+                <div class="inputfield1">
+                    <a href="./payments.php"><input type="button" value="Pay now" class="btn"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Copyright notice -->
+    <div class="copy">
+        <p>&copy; COPYRIGHT @RRparking.com | 2020 - 2022</p>
+    </div>
+    <!-- End: footer -->
+</body>
+
+</html>
