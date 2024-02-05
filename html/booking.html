@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header.css">
+    <script type="text/javascript" src="../js/functio.js"></script>   
+</head>
+
+
+
+<link rel="stylesheet" href="../css/bookingg.css">
+<title>RR Parking - Login</title>
+
+
+
+<body>
+<!-- header -->
+ <header>
+    <img src="../images/header-footer/Logo.jpg" class="logo">
+    <nav>
+        <ul class="links">
+            <li class="links"><a href="./index.html">Home</a></li>
+            <li class="links"><a href="./FAQ.html">FAQ's</a></li>
+            <li class="links"><a href="./About us.html">About us </a></li>
+            <li class="links"><a href="#">Privacy policy </a></li>
+            <li class="links"><a href="#">Customer reviews </a></li>
+            <li class="links"><a href="#">Contact us</a></li>
+            <li class="links"><a href="./offers.html">Offers</a></li>
+            <li class="links"><a href="#">Locations</a></li>
+        </ul>
+    </nav>
+    <!-- <a href="./login.html" class="account">
+        <button class="btn-primary"> Log in </button>
+    </a> -->
+    <div></div>
+</header>
+<!-- end: header -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wwrapper">
+  <div class="title">
+   Book your slot!
+  </div>
+  <div class="form">
+
+
+
+
+    <div class="inputfield">
+      <label>Select Location</label>
+      <div class="customer_select">
+        <select required>
+          <option value="">Select</option>
+          <option value="Kandy">Kandy</option>
+          <option value="Kadawatha">Kadawatha</option>
+          <option value="Galle">Galle</option>
+        </select>
+      </div>
+   </div> 
+ 
+    
+ 
+       <div class="inputfield">
+          <label>Date</label>
+          <input
+           type="date"
+          required>
+       </div>
+
+       <div class="inputfield">
+          <label>Select vehicle type</label>
+          <div class="customer_select" >
+            <select required>
+              <option value="">Car</option>
+              <option value="Van">Van</option>
+              <option value="Suv">Suv</option>
+              <option value="Pickuptruck">Pickup truck</option>
+              <option value="Minian">Minivan</option>
+  
+            </select>
+          </div>
+       </div> 
+
+
+     <div class="inputfield">
+        <label>Vehicle drop off time</label>
+        <input type="time" class="input" required>
+     </div>  
+     
+
+     <form name="formcalc">
+      <div class="inputfield">
+          <label>Amount of hours vehicle will be parked</label>
+          <input type="text" class="input" name="txtnum1" max="24" required>
+        </div>  
+
+        <div class="inputfield">
+        <input type="button" value="Confirm" class="btn" onClick="sumvalues()">
+      </div>
+      
+       <div class="inputfield">
+        <label>Discounts</label>
+        <input type="text" class="input" name="txtnum2" readonly>
+      </div> 
+      
+      <div class="inputfield">
+        <label>Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.</label>
+        <input type="text" class="input" name="txtres"   readonly>
+      </div> 
+      
+      <div class="inputfield">
+        <input type="button" value="Pay now" class="btn">
+      </div>
+      </form>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="copy">
+    <p> &copy; COPYRIGHT @RRparking.com | 2020 - 2022 </p>
+</div>
+<!-- end: footer -->
+</body>
+
+</html>
