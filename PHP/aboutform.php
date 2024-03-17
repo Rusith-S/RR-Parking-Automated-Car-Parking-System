@@ -10,7 +10,6 @@ $dbusername = "root";
 $dbpassword = "";
 $dbname = "rr_parkings";
 
-
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 if (mysqli_connect_error()){
