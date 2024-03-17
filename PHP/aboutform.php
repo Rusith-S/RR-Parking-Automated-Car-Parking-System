@@ -4,10 +4,12 @@ $Email = filter_input(INPUT_POST, 'User_Email');
 $Phone = filter_input(INPUT_POST, 'User_Phone');
 $Question = filter_input(INPUT_POST, 'User_Question');
 $Comment= filter_input(INPUT_POST, 'User_Comment');
+
 $host = "localhost";
 $dbusername = "root";
 $dbpassword = "";
 $dbname = "rr_parkings";
+
 
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
